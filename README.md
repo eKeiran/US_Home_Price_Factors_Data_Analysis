@@ -3,7 +3,7 @@
 **GOAL:** To find available data for key factors that influence US home prices nationally. Then, build a data science model that explains how these factors impacted home prices over the last 20 years. 
 
 *Final Result Summary:* Training and evaluating Ridge Regression, Random Forest Regression, and Gradient Boosting Regression models. 
-### ** <u> Out of three models chosen, Random Forest most accuratley explains how key factors impacted home prices. </u> ** 
+### <u>Out of three models chosen, <em>Random Forest</em> most accurately explains how key factors impacted home prices with the highest R Square Score and lowest Mean Absolute Error.</u>
 
 ![image](https://github.com/eKeiran/US_Home_Price_Factors_Data_Analysis/assets/34791715/a04df742-c540-4975-a284-2c04d8d326d2)
 
@@ -53,21 +53,21 @@ The trained models yielded the following results:
 
 ### Ridge Regression:
 
-Mean Absolute Error (MAE): <span style="color:red">13.859</span>
+Mean Absolute Error (MAE): 🟥 **13.859**
 
-R-squared (R2): <span style="color:orange">0.996</span>
+R-squared (R2): 🟧 **0.996**
 
 ### Random Forest Regression:
 
-Mean Absolute Error (MAE): <span style="color:green">4.577</span>
+Mean Absolute Error (MAE): 🟩 **4.577**
 
-R-squared (R2): <span style="color:green">0.999</span>
+R-squared (R2): 🟩 **0.999**
 
 ### Gradient Boosting Regression:
 
-Mean Absolute Error (MAE): <span style="color:orange">5.888</span>
+Mean Absolute Error (MAE): 🟧 **5.888**
 
-R-squared (R2): <span style="color:green">0.999</span>
+R-squared (R2): 🟩 **0.999**
 
 
 ## The Random Forest Regression and Gradient Boosting Regression models performed better than Ridge Regression based on lower MSE values and perfect R2 scores, indicating a strong predictive ability of these models for US home prices.
